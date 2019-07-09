@@ -14,8 +14,6 @@ class App < Sinatra::Base
     @powerForward = params[:pf]
     @smallForward = params[:sf]
     @center = params[:c]
-
-
     erb :team
   end
 
